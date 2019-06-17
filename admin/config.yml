@@ -1,6 +1,11 @@
+#backend:
+  #name: git-gateway
+  #branch: master # Branch to update (master by default)
+  
 backend:
-  name: git-gateway
-  branch: master # Branch to update (master by default)
+  name: github
+  repo: stsocrat/jekyll-netlify-cms # your GitHub username and repository name, separated by a slash
+  branch: master # optional, default value is "master"
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
